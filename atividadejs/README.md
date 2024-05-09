@@ -36,7 +36,8 @@ if (resposta === 'Sim'){
 ```
 
 ## ***Switch Case***
-    É utilizado para quando você possui muito destes "Caminhos" citados no if, quando se há diversas opções para se selecionar pode-se utilizar o Switch Case.
+    É utilizado para quando você possui muito destes "Caminhos" citados no if,
+    quando se há diversas opções para se selecionar pode-se utilizar o Switch Case.
 ### ***Exemplos***
 + Seleciona a opção 2.
 ```JS
