@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gerador de Tabuada</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class ="left-container">
+            <h1>Gerador de Tabuada</h1>
+            
+        </div>
+        <div class="right-container">
+            <div class="menu-right-container" id="menu">        
+                <label for="number">Insira o valor: </label>
+                <input type="text"
+                id = "number"
+                name = "number"
+                placeholder="Digite o valor"
+                onkeypress = "return /\d/.test(event.key)">
+                <p id ="error"></p>
+                <div class="button-container">
+                    <button class="button add-button" onclick="criarTabuada()">Criar</button>
+                    <button class="button clear-button" id="clear" onclick="clearInput()">Limpar</button>
+                    
+                </div>
+                <table id="tabuada"></table><br/>
+            </div>
+        </div>    
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
