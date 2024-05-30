@@ -3,7 +3,7 @@ function criarTabuada() {
     let tabuada = document.getElementById("tabuada");
     let error = document.getElementById("error");
     document.getElementById("tabuada").innerHTML = "";
-    if(number >= 1 && number <= 10){
+    if(number >= 1){
         tabuada.innterHTML = "";
 
         for(let i = 1; i <= 10; i++){
